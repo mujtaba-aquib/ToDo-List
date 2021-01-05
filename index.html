@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+
+    <title>ToDoList</title>
+</head>
+
+<body>
+    <div class="container">
+        <h3>To Do List</h3>
+        <h6>Lists your day tasks . . . !</h6>
+        <hr class="design">
+
+        <form id="task-form" class="input-group md-3">
+            <input id="task_input" type="text" class="form-control" placeholder="Write a task to add ...">
+            <button class="btn btn-outline-secondary" type="submit"> Add Task </button>
+        </form>
+        <div id='output'>
+            <h5>Tasks</h5>
+            <ol class="tasks">
+
+            </ol>
+            <button id="clear_btn" class="btn btn-outline-secondary"> Clear All </button>
+        </div>
+
+        <div class="footer">
+            <p>Developed by @quib 2021</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
